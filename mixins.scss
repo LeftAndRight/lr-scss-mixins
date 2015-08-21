@@ -1,0 +1,38 @@
+@mixin background-size($backgroundSize) {
+	-webkit-background-size: $backgroundSize;
+	-moz-background-size: $backgroundSize;
+	-o-background-size: $backgroundSize;
+	background-size: $backgroundSize;
+}
+
+@mixin transition($transitionProperties) {
+	-o-transition: $transitionProperties;
+	-ms-transition: $transitionProperties;
+	-moz-transition: $transitionProperties;
+	-webkit-transition: $transitionProperties;
+	transition: $transitionProperties;
+}
+
+@mixin placeholder-hover($color) {
+	// Firefox
+	&:hover::-moz-placeholder {
+		color: $color;
+		opacity: 1;
+	}
+	// Internet Explorer 10+
+	&:hover:-ms-input-placeholder {
+		color: $color;
+	}
+	// Safari and Chrome
+	&:hover::-webkit-input-placeholder  {
+		color: $color;
+	}
+}
+
+@mixin stickEdges {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}

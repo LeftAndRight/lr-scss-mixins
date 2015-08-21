@@ -1,0 +1,35 @@
+// Media query portraid sizes
+$screen-port-sm:360px;
+$screen-port-md:600px;
+$screen-port-lg:800px;
+
+$screen-port-sm-max:$screen-port-sm;
+
+$screen-port-md-min:$screen-port-sm + 1;
+$screen-port-md-max:$screen-port-md;
+
+$screen-port-lg-min:$screen-port-md + 1;
+$screen-port-lg-max:$screen-port-lg;
+
+// Standard ratios for media queries
+$ratio0_35:0.35;
+$ratio0_4:0.4;
+$ratio0_5:0.5;
+$ratio0_7:0.7;
+$ratio0_8:0.8;
+$ratio0_9:0.9;
+
+$fontSize12:12px;
+$fontSize14:14px;
+$fontSize15:15px;
+$fontSize16:16px;
+$fontSize17:17px;
+$fontSize18:18px;
+$fontSize22:22px;
+$fontSize24:24px;
+$fontSize26:26px;
+$fontSize28:28px;
+$fontSize30:30px;
+$fontSize36:36px;
+$fontSize40:40px;
+$fontSize45:45px;

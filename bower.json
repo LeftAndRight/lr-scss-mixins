@@ -1,0 +1,10 @@
+{
+  "name": "lr-sass-mixins",
+  "homepage": "https://github.com/LeftAndRight/lr-sass-mixins",
+  "authors": [
+    "Jonathan Beech <jon@leftandright.co.za>"
+  ],
+  "license": "MIT",
+  "ignore": [
+  ]
+}
