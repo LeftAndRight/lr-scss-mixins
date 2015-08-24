@@ -1,10 +1,15 @@
 {
-  "name": "lr-sass-mixins",
-  "homepage": "https://github.com/LeftAndRight/lr-sass-mixins",
-  "authors": [
-    "Jonathan Beech <jon@leftandright.co.za>"
-  ],
-  "license": "MIT",
-  "ignore": [
-  ]
+    "name": "lr-sass-mixins",
+    "version": "0.0.2",
+    "homepage": "https://github.com/LeftAndRight/lr-sass-mixins",
+    "main": [
+        "mixins.scss"
+    ],
+    "authors": [
+        "Jonathan Beech <jon@leftandright.co.za>",
+        "Chris Beech <chris@leftandright.co.za>"
+    ],
+    "license": "MIT",
+    "ignore": [
+    ]
 }
